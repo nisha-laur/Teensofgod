@@ -11,7 +11,7 @@ function doSomething(e) {
     document.querySelector(".container1").style.right = "435px";
   }
   else if (e.target.id == document.getElementsByTagName("li")[1].id) {
-    document.querySelector(".hori-selector").style.setProperty("left", "899.859px ");
+    document.querySelector(".hori-selector").style.setProperty("left", "916.859px");
     document.querySelector(".container1").style.right = "317px";
     
     // document.querySelector(".hori-selector").style.left = "937.859px  ";
@@ -44,7 +44,7 @@ document.querySelector("#topnav").addEventListener("click", changecolor);
   }
   
   
-  if (document.querySelector(".hori-selector").style.left == "899.859px") {
+  if (document.querySelector(".hori-selector").style.left == "916.859px") {
     document.getElementsByTagName("li")[1].style.color = "#022b3a";
     document.getElementsByTagName("li")[0].style.color = "rgb(185, 182, 182)";
     document.querySelector(".container1").style.display = "block";
