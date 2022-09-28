@@ -25,7 +25,7 @@ function doSomething(e) {
     document.querySelector(".container1").style.right = "113px"; 
   }
   else if(e.target.id == document.getElementsByTagName("li")[4].id){
-    document.querySelector(".hori-selector").style.left = "1226.86px";
+    document.querySelector(".hori-selector").style.left = "1225.86px";
     document.querySelector(".container1").style.right = "23px";
     
   }
@@ -70,7 +70,7 @@ document.querySelector("#topnav").addEventListener("click", changecolor);
     document.getElementsByTagName("li")[3].style.color = "rgb(185, 182, 182)";
    
   }
-  if (document.querySelector(".hori-selector").style.left == "1226.86px") {
+  if (document.querySelector(".hori-selector").style.left == "1225.86px") {
     document.getElementsByTagName("li")[4].style.color = "#022b3a";
     document.getElementsByTagName("li")[0].style.color = "rgb(185, 182, 182)";
     document.querySelector(".container1").style.display = "block";
