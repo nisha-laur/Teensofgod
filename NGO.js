@@ -21,7 +21,7 @@ function doSomething(e) {
     document.querySelector(".container1").style.right = "214px";
   }
   else if (e.target.id == document.getElementsByTagName("li")[3].id) {
-    document.querySelector(".hori-selector").style.left = "1134.86px";
+    document.querySelector(".hori-selector").style.left = "1135.86px";
     document.querySelector(".container1").style.right = "113px"; 
   }
   else if(e.target.id == document.getElementsByTagName("li")[4].id){
@@ -62,7 +62,7 @@ document.querySelector("#topnav").addEventListener("click", changecolor);
    
   }
 
-  if (document.querySelector(".hori-selector").style.left == "1134.86px") {
+  if (document.querySelector(".hori-selector").style.left == "1135.86px") {
     document.getElementsByTagName("li")[3].style.color = "#022b3a";
     document.getElementsByTagName("li")[0].style.color = "rgb(185, 182, 182)";
     document.querySelector(".container1").style.display = "block";
